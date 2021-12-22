@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "1.1.4"
+werkzeug = "*"
+dacite = "1.6.0"
+
+[dev-packages]
+pytest = "6.2.5"
+black = "21.11b1"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
